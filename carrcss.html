@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="fondo">
+  <style>
+    .titulo{
+      font-family: Arial;
+      font-size: 30px;
+      color: blue;
+    }
+    .formulario{
+      font-family: cursive;
+      color:black;
+      font-size: 18px;
+
+    }
+    .fondo{
+      background-image: url(https://fondosmil.com/fondo/35803.jpg);
+      background-size: cover;
+
+    }
+    .enviar{
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 10px 30px;
+      font-size: 20px;
+    }
+    .caja{
+      border-radius: 5px;
+      border: 2px solid blue;
+      width: 200px;
+      height: 30px;
+    }
+    </style>
+  
+    <center>
+  <p class="titulo">Registro de Autos</p>
+  <form action=" " method="POST">
+    <table bgcolor="white" cellpadding="5">
+      <tr>
+        <td align="right">
+      <font class="formulario">Id Auto:</font>
+    </td>
+    <td>
+      <select class="caja" name="id_coche">
+           <option value="1">1</option>
+           <option value="2">2</option>
+    </select>
+    </td>
+  </tr>
+  <tr>
+    <td align="right">
+      <font class="formulario">Tipo Combustible:</font>
+      </td>
+      <td>
+      <select class="caja" name="id_movidoa"> 
+          <option value="1">1</option>
+      </select>
+    </td>
+    </tr>
+    <tr>
+      <td align="right">
+      <font class="formulario">Tipo Auto:</font>
+      </td><td>
+      <select class="caja" name="id_tipocoche">
+          <option value="1">1</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+      <td align="right">
+    <font class="formulario">Estado del Auto:</font>
+</td> <td>
+      <select class="caja" name="id_estado" >
+          <option value="1">1</option>
+    </select>
+  </td>
+  <tr>
+    <td align="right">
+    <font class="formulario">Marca</font>
+  </td><td>
+      <select class="caja" name="id_marca" >
+          <option value="1">1</option>
+    </select></td>
+    </tr><tr>
+      <td align="right">
+    <font class="formulario">Id Usuario:</font>
+  </td><td>
+      <select class="caja" name="id_usr">
+           <option value="1">1</option>
+    </select></td>
+    </tr><tr><td align="right">
+    <font class="formulario">Modelo:</font></td><td>
+      <input class="caja" maxlength="60" type="text" name="modelo" required ></td></tr>
+    </tr>
+    <tr><td align="right">
+    <font class="formulario">Año:</font></td><td>
+      <input class="caja" max="9999" type="number" name="anio" required ></td></tr>
+    </tr>
+    <tr><td align="right">
+    <font class="formulario">Detalle:</font></td><td>
+      <input class="caja" type="text" name="detalle" required ></td></tr>
+    </tr>
+    <tr><td align="right">
+    <font class="formulario">Caja:</font></td><td>
+      <input class="caja" type="number" name="caja" required ></td></tr>
+    </tr>
+    <tr><td align="right">
+    <font class="formulario">Motor:</font></td><td>
+      <input class="caja" type="number" name="motor" required ></td></tr>
+    </tr>
+    <tr><td align="right">
+    <font class="formulario">Fecha de Publicación:</font></td><td>
+      <input class="caja" maxlength="10" type="text" name="fechapub" required ></td></tr>
+      <tr><td align="right">
+    <font class="formulario">Precio:</font></td><td>
+      <input class="caja" type="number" name="precio" required ></td></tr>
+      <tr><td align="right">
+    <font class="formulario">Moneda:</font></td><td>
+      <input class="caja" maxlength="3" type="text" name="moneda" required ></td></tr>
+      <tr><td align="right">
+    <font class="formulario">Descripcion del Auto:</font></td><td>
+      <textarea class="caja" name="cc_pic01" rows="5" cols="20"></textarea></td></tr>
+    </table>
+
+    <input class="enviar" type="submit" value="Enviar">
+    
+  
+  </form>  
+    </center>
+</body>
+</html>
